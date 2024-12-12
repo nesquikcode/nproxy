@@ -1,4 +1,4 @@
-FROM ubuntu:25.04
+FROM dockerhub.timeweb.cloud/ubuntu:24.04
 
 EXPOSE 743/tcp
 EXPOSE 543/tcp
