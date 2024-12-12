@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nproxy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nproxy
+    network_mode: host
